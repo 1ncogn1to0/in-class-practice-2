@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.header h1{
+    background-color: #333;
+    display: block;
+    text-align: center;
+    color:white;
+}
+.overview h2, .specs-section h4, .features-section h4, .form-section h4, .link-section h4, .button-section h4 {
+    text-align: center;
+    color: #333;
+}
+
+
+.image-section img {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 12px;
+}
+
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th{
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+}
+td{
+    background-color: rgb(234, 227, 219);
+    padding: 10px;
+    text-align: center;
+}
+
+.form-section form {
+    text-align: center;
+    margin: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #aa9e78;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bd9d51;
+}
+
+/* Стили нижнего колонтитула */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
